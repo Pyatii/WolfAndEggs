@@ -40,9 +40,8 @@ class Game():
             if self.egg.border_touch():
                 self.egg.spawn()
                 self.counters.score-=1
-        def start_run(self):
-            while self.is_running:
-                self.update_scene()
-                self.run()
-            pygame.quit()
-        
+    def start_run(self):
+       while self.is_running:
+           self.update_scene()
+           self.run()
+       pygame.quit()
