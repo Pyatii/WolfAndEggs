@@ -4,7 +4,7 @@ from Player import Player
 from Egg import Egg
 from Counters import Counters
 
-def Game():
+class Game():
     def __init__(self):
         pygame.init()
         self.clock = pygame.time.Clock()
